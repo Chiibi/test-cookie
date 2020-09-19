@@ -1,5 +1,4 @@
-
-
+module.exports = ()  => `
 <!DOCTYPE html>
 <html>
   <head>
@@ -15,7 +14,7 @@
           console.log(document.cookie)
           var aString = '';
           for (var i = 1 ; i <= theCookies.length; i++) {
-              aString += i + ' ' + theCookies[i-1] + "\n";
+              aString += i + ' ' + theCookies[i-1] + "\\n";
           }
           return aString;
       }
@@ -24,4 +23,4 @@
   </body>
 
 
-</html>
+</html>`
