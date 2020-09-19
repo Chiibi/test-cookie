@@ -2,7 +2,6 @@ const express = require("express");
 const path = require("path");
 const serverless = require("serverless-http");
 const cookieParser = require('cookie-parser');
-const fs = require('fs')
 
 const app = express();
 const router = express.Router();
